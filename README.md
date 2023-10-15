@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 # ByteZipper
 for the paper SIGMOD 2024
 The SensorScope data set could be found here https://zenodo.org/record/2654726.
