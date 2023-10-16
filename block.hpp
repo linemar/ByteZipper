@@ -1,12 +1,3 @@
-/*
- * @Author: SunZewen
- * @Date: 2023-03-27 10:04:06
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-07-03 13:05:34
- * @Description:
- * @FilePath: \undefinedc:\Users\SunZewen\Desktop\block.hpp
- */
-
 #ifndef BLOCK
 #define BLOCK
 
