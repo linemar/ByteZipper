@@ -46,17 +46,16 @@ namespace bytesegment
                         __m512i bytedata_vec = _mm512_loadu_epi32(src + index + i);
                         __m512i delta_vec = _mm512_sub_epi32(bytedata_vec, base_vec);
 
-                        // 所有元素的低8位都要存储在comp数组
                         _mm512_mask_cvtepi32_storeu_epi8((*(col->metadata))[block_id].comp_data + i, mask_true_, delta_vec);
 
-                        // 与255比较
+                
                         mask_gt255 = _mm512_cmpgt_epi32_mask(delta_vec, data_255);
                         ((uint16_t *)(*(col->metadata))[block_id].bmask)[i >> 4] = mask_gt255;
 
                         // delta_high_vec = delta_vec >> 8;
                         delta_high_vec = _mm512_srli_epi32(delta_vec, 8);
 
-                        // 大于255的部分需要移位，然后存储
+  
                         _mm_mask_compressstoreu_epi8((*(col->metadata))[block_id].pack_data + (*(col->metadata))[block_id].pack_data_size, mask_gt255, _mm512_cvtepi32_epi8(delta_high_vec));
                         (*(col->metadata))[block_id].pack_data_size += _mm_popcnt_u32((uint32_t)mask_gt255);
                     }
