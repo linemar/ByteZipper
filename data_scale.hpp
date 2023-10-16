@@ -1,11 +1,4 @@
-/*
- * @Author: SunZewen
- * @Date: 2023-05-31 13:18:00
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-06-03 13:53:22
- * @Description:   
- * @FilePath: /zwsun/workspace/iot_cloud/iot/include/bytesegment/common/data_scale.hpp
- */
+
 #include <vector>
 #include <cstdint>
 
