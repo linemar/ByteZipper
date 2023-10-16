@@ -1,11 +1,4 @@
-/*
- * @Author: SunZewen
- * @Date: 2022-10-24 15:07:51
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-06-05 18:23:29
- * @Description:
- * @FilePath: /zwsun/workspace/iot_cloud/iot/common.hpp
- */
+
 #include <iostream>
 #include <fstream>
 #include <cstdint>
