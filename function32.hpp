@@ -1,11 +1,3 @@
-/*
- * @Author: SunZewen
- * @Date: 2023-02-06 15:00:21
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-07-03 13:09:34
- * @Description:
- * @FilePath: \undefinedc:\Users\SunZewen\Desktop\function32.hpp
- */
 
 #ifndef BTTE_SEGMENT_FUNC
 #define BTTE_SEGMENT_FUNC
