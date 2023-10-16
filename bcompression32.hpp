@@ -1,12 +1,3 @@
-/*
- * @Author: SunZewen
- * @Date: 2023-03-25 19:55:07
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-07-03 12:45:02
- * @Description:
- * @FilePath: \undefinedc:\Users\SunZewen\Desktop\bcompression32 (1).hpp
- */
-
 #include <vector>
 #include <cstdint>
 #include <cstddef>
