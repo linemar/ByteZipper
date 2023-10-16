@@ -1,12 +1,3 @@
-/*
- * @Author: SunZewen
- * @Date: 2023-03-27 10:04:06
- * @LastEditors: SunZewen
- * @LastEditTime: 2023-06-29 20:13:26
- * @Description:
- * @FilePath: /zwsun/workspace/iot_cloud/iot/include/bytesegment/storage/column.hpp
- */
-
 #ifndef COMPRESSCOLUMN
 #define COMPRESSCOLUMN
 
